@@ -1,0 +1,4 @@
+#slicing
+a="kalyani"
+b=a[0:3:2]
+print(b)

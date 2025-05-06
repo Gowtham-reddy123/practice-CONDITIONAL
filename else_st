@@ -1,0 +1,9 @@
+a=int(input("enter the value"))
+if a>=91:
+	print("A GRADE")
+elif a>=75 and a<=90:
+	print("B GRADE")
+elif a>=61 and a<=75:
+	print("C GRADE")
+else:
+	print("fail")

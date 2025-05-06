@@ -1,0 +1,7 @@
+x=int(input("enter you experience(years) "))
+if x>7:
+	print("you are eligible to this job")
+elif x>=3:
+	print("we will intimate you later")
+else:
+	print("getout")
