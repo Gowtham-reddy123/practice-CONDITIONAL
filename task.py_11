@@ -1,0 +1,5 @@
+mul_num=1
+a=int(input("enter the number"))
+for x in range (1,a+1):
+	mul_num=mul_num*x
+print("multiplication of number from 1 to {}={}".format(x,mul_num))

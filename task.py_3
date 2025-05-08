@@ -1,0 +1,4 @@
+table_num=int(input("enter the number"))
+for x in range(1,11,1):
+	mul_num=table_num*x
+	print("{} X {} = :{}".format(table_num,x,mul_num))

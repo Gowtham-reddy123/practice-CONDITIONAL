@@ -1,0 +1,6 @@
+sum_n=0
+a=int(input("enter the number"))
+for x in range(a+1):
+	sum_n=sum_n+x
+print("sum of numbers from 0 to {}={}".format(x,sum_n))
+	

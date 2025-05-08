@@ -1,0 +1,8 @@
+sum_n=0
+a=int(input("enter the number:"))
+for x in range (a+1):
+	if x%2==0:
+		sum_n=sum_n+x
+print("sum of even number from 0 to {} = {}".format(x,sum_n))
+	
+

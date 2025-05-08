@@ -1,0 +1,6 @@
+mul_num=1
+a=int(input("enter the number:"))
+for x in range(a+1):
+	if x%2!=0:
+		mul_num=mul_num*x
+print("multiplication of odd number from 1 to {} = {}".format(x,mul_num))
